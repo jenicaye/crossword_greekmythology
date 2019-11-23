@@ -1,0 +1,377 @@
+*{
+	margin: 0 0;
+	padding: 0 0;
+	box-sizing: border-box;
+}
+
+
+
+
+
+/*LEFT*/
+
+/*GREEK METHODOLOGY*/
+.greekMythology{
+	font-size: 45px;
+	font-style: italic;
+	margin-left: 230px;
+}
+/*mobile styles*/
+@media only screen and (max-width: 767px){
+	.greekMythology{
+		margin: auto;
+		text-align: center;
+		/*margin-left: 20px;*/
+		font-size: 35px;
+	}	
+}
+/*tablet styles*/
+@media only screen and (min-width: 768px) and (max-width: 1000px){
+	.greekMythology{
+		margin: auto;
+		text-align: center;
+	}
+}
+/*tablet styles*/
+@media only screen and (min-width: 1000px) and (max-width: 1200px){
+	.greekMythology{
+		margin-top: 40px !important;
+		margin-bottom: 20px !important;
+		margin: auto;
+		text-align: center;
+	}
+}
+/*desktop styles -- 1366 * 663*/
+@media only screen and (device-width: 1366px) and (device-height: 663px){
+	.greekMythology{
+		margin-top: 20px !important;
+		margin-bottom: 10px !important;
+	}
+} 
+/*desktop styles -- 1366 * 768*/
+@media only screen and (min-width: 1366px) and (min-height: 768px){
+	.greekMythology{
+		margin-top: 50px !important;
+		margin-bottom: 40px !important;
+	}
+} 
+/*desktop styles -- 1920 * 1080*/
+@media only screen and (min-width: 1920px) and (min-height: 1080px){
+	.greekMythology{
+		margin-top: 100px !important;
+		margin-bottom: 40px !important;
+		margin-left: 380px;
+	}
+	.crosswordcontainer{
+		margin-left: 200px !important;
+	}
+}
+
+
+
+.crosswordcontainer{
+	overflow-x:auto;
+}
+/*mobile styles*/
+@media only screen and (max-width: 767px){
+	.crosswordcontainer{
+		margin-left: 5px !important;
+	}
+}
+/*tablet styles*/
+@media only screen and (min-width: 768px) and (max-width: 1000px){
+	.crosswordcontainer{
+		margin-left: 4% !important;
+		margin-right: 4% !important;
+		margin: auto;
+	}
+}
+/*tablet styles*/
+@media only screen and (min-width: 1000px) and (max-width: 1200px){
+	.crosswordcontainer{
+		margin-left: 15% !important;
+		margin-right: 15% !important;
+		margin: auto;
+	}
+}
+
+
+
+/*TABLE*/
+.table{
+	/*35 * 17 cells*/
+	/*width: 595px;*/
+	/*33 * 17 cells + 34*/ 
+	/*width: 561px;*/ 
+	width: 595px;
+
+	/*29 * 17 cells + 34*/ 
+	/*width: 561px;*/ 
+	/*width: 527px;*/
+
+	/*35 * 16 cells*/
+	/*height: 560px;*/
+	/*33 * 16 cells + 32*/
+	/*height: 528px;*/
+	height: 560px;
+
+	/*29 * 16 cells + 32*/
+	/*height: 528px;*/
+	/*height: 496px;*/
+}
+/*mobile styles*/
+@media only screen and (max-width: 767px){
+	.table{
+		margin-left: 0px !important;
+	}
+}
+
+
+table td{
+	/*VERY IMPORTANT: IN ORDER TO LET THE CLUE NUM FLOAT IN THE CELL*/
+	position: relative;
+	border: 1px solid #cdcdcd;
+	padding: 0 0;
+}
+
+
+table tr{
+	height: 35px !important;
+}
+
+
+.blackTile{
+	background-color: #313639;
+}
+
+
+.whiteTile{
+	background-color: white;
+	padding: 0 0!important;
+}
+
+
+.whiteTilenum{
+	background-color: white;
+	padding: 0 0!important;
+}
+
+
+.num{
+	color: #444;
+	font-size: 10px;
+	/*VERY IMPORTANT: IN ORDER TO LET THE CLUE NUM FLOAT IN THE CELL*/
+	position: absolute;
+	top: -1px;
+	left: 1px;
+}
+
+
+.whiteTileInput{
+	width: 100%;
+	height: 100%;
+	margin: 0 0;
+	padding: 0 0;
+	border-collapse: collapse;
+	border: none;
+	border-style: none;
+	border-color: transparent;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 25px;
+	color: #666;
+}
+
+
+.whiteTilenumInput{
+	width: 100%;
+	height: 100%;
+	margin: 0 0;
+	padding: 0 0;
+	border-collapse: collapse;
+	/*border: none;
+	border-style: none;
+	border-color: transparent;*/
+	text-transform: uppercase;
+	border: none;
+	text-align: center;
+	font-size: 25px;
+	color: #666;
+}
+
+/*END OF LEFT*/
+
+
+
+
+
+/*RIGHT*/
+
+/*CHECK AND SHOW ANSWER BUTTON*/
+/*mobile styles*/
+
+@media only screen and (max-width: 767px){
+	.cluescontainerFirstDiv{
+		margin-left: 10px !important;
+		margin-right: 10px !important;
+	}
+	.cluescontainerSecondDiv{
+		margin-left: 20px !important;
+		margin-right: 20px !important;
+		margin-bottom: 60px;
+	}
+}
+/*tablet styles*/
+@media only screen and (min-width: 768px) and (max-width: 1000px){
+	.cluescontainerFirstDiv{
+		margin-left: 4% !important;
+		margin-right: 4% !important;
+		margin: auto;
+	}
+	.cluescontainerSecondDiv{
+		/*margin-left: 20px !important;
+		margin-right: 20px !important;*/
+		margin-bottom: 60px;
+	}
+}
+/*tablet styles*/
+@media only screen and (min-width: 1000px) and (max-width: 1200px){
+	.cluescontainerFirstDiv{
+		margin-left: 15% !important;
+		margin-right: 15% !important;
+		margin: auto;
+	}
+	.cluescontainerSecondDiv{
+		/*margin-left: 20px !important;
+		margin-right: 20px !important;*/
+		margin-bottom: 40px;
+	}
+}
+
+
+button{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+
+#check{
+}
+/*mobile styles*/
+@media only screen and (max-width: 767px){
+	#check{
+		margin-left: 20px !important;
+	}
+}
+/*tablet styles*/
+@media only screen and (min-width: 768px) and (max-width: 1200px){
+	#check{
+		margin-left: 60px !important;
+	}
+}
+/*desktop styles -- 1366 * 663*/
+@media only screen and (device-width: 1366px) and (device-height: 663px){
+	#check{
+		margin-top: 30px !important;
+		margin-bottom: 20px !important;
+	}
+} 
+/*desktop styles -- 1366 * 768*/
+@media only screen and (min-width: 1366px) and (min-height: 768px){
+	#check{
+		margin-top: 60px !important;
+		margin-bottom: 50px !important;
+	}
+}
+/*desktop styles -- 1920 * 1080*/
+@media only screen and (min-width: 1920px) and (min-height: 1080px){
+	#check{
+		margin-top: 110px !important;
+		margin-bottom: 50px !important;
+	}
+} 
+
+
+#show{
+	margin-left: 10px;
+}
+/*desktop styles -- 1366 * 663*/
+@media only screen and (device-width: 1366px) and (device-height: 663px){
+	#show{
+		margin-top: 30px !important;
+		margin-bottom: 20px !important;
+	}
+} 
+/*desktop styles -- 1366 * 768*/
+@media only screen and (min-width: 1366px) and (min-height: 768px){
+	#show{
+		margin-top: 60px !important;
+		margin-bottom: 50px !important;
+	}
+} 
+/*desktop styles -- 1920 * 1080*/
+@media only screen and (min-width: 1920px) and (min-height: 1080px){
+	#show{
+		margin-top: 110px !important;
+		margin-bottom: 50px !important;
+	}
+} 
+
+
+#score{
+	font-size: 20px;
+	font-style: italic;
+}
+/*mobile styles*/
+@media only screen and (max-width: 767px){
+	#score{
+		margin-left: 20px !important;
+	}
+}
+
+
+#scores{
+	font-size: 20px;
+	font-style: italic;
+	display: none;
+	margin-left: 1px;
+	/*text-decoration-line: underline;*/
+  	/*text-decoration-style: double;*/
+}
+
+
+#times{
+	font-size: 20px;
+	font-style: italic;
+	display: inline-block;
+}
+/*mobile styles*/
+@media only screen and (max-width: 767px){
+	#times{
+		margin-left: 20px !important;
+	}
+}
+
+
+#time{
+	color: red;
+}
+
+
+/*CLUE*/
+.cluescontainer{
+	padding-left: 50px;
+}
+
+
+.clues{
+	margin-top: 20px
+}
+
+
+span{
+	display: block;
+	font-size: 14px;
+}
+
+/*END OF RIGHT*/
